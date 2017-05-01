@@ -1,0 +1,8 @@
+Install XAMPP Server
+Put all the Files in htdocs folder where you have installed XAMPP Server
+open the Web Browser type localhost/phpmyadmin
+import the Database file from folder
+now type localhost in the Browser
+you will see list of folders/projects
+Select your project folder
+Hurrah..Your are Done..
