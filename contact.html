@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+  <body>
+<!-- Start Page Loading -->
+  <div id="loader-wrapper">
+      <div id="loader"></div>        
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+  </div>
+  <!-- End Page Loading -->
+
+  
+  <form method="POST" action="index.php">
+  <!--Navigational Bar-->
+  <nav >
+    <div class="nav-wrapper">
+      <a href="index.php" class="brand-logo">HOC Cell</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li class="active"><a href="index.php">Home</a></li>
+        <li><a href="highereducation.html">Higher Education</a></li>
+        <li><a href="onlinecourses.html">Online Courses</a></li>
+        <li><a href="#">Certfications</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#modal1">Login</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li class="active"><a href="index.php">Home</a></li>
+         <li><a class="dropdown-button" href="#" data-activates="dropdown2">HOC<i class="material-icons right">arrow_drop_down</i></a>
+        <ul class="dropdown-content" id="dropdown2">
+        <li><a href="#">Higher Education</a></li>
+        <li><a href="#">Online Courses</a></li>
+        <li><a href="#">Certfications</a></li>
+        </ul>
+        </li>
+        <li><a href="#"><i class="material-icons">perm_media</i>Gallery</a></li>
+        <li><a href="#"><i class="material-icons">polymer</i>Events</a></li>
+        <li><a href="#modal1"><i class="material-icons">perm_identity</i>Login</a></li>
+        <li><a href="#"><i class="material-icons">perm_phone_msg</i>Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--Navigational Bar script-->
+  <script type="text/javascript">
+    $(".button-collapse").sideNav();
+  </script>
+  <script type="text/javascript">  
+  $(".dropdown-button").dropdown();
+  </script>
+  <!--End of Navigational Bar script-->
+  <!--End of Navigational Bar-->
+
+  <!--start container-->
+        <div class="container">
+          <div class="section">
+              <h4>
+            <p class="caption">Have a question? Don't hesitate to send us a message. Our team will be happy to help you.</p>
+              </h4>
+            
+            
+            <div id="contact-page" class="card">
+                 <div class="card-content">                    
+                    <a class="btn-floating activator btn-move-up waves-effect waves-light darken-2 right">
+                        <i class="material-icons">mode_edit</i>
+                    </a>
+
+                    <div class="row">
+                      <div class="col s12 m6">
+                        <form class="contact-form">
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <input id="name" type="text">
+                              <label for="first_name">Name</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <input id="email" type="email">
+                              <label for="email">Email</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <input id="Class" type="text">
+                              <label for="Class">Class</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <input id="Roll" type="text">
+                              <label for="Roll">Roll</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <input id="website" type="text">
+                              <label for="website">Website</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <textarea id="message" class="materialize-textarea"></textarea>
+                              <label for="message">Message</label>
+                            </div>
+                            <div class="row">
+                              <div class="input-field col s12">
+                                <button class="btn cyan waves-effect waves-light right" type="submit" name="action">Send
+                                  <i class="material-icons left">stars</i>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>                  
+                          
+                      <div class="col s12 m6">
+                        <ul class="collapsible collapsible-accordion" data-collapsible="accordion">
+                          <li>
+                            <div class="collapsible-header"><i class="material-icons">error</i> FAQ</div>
+                            <div class="collapsible-body" style="">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </li>
+                          <li class="active">
+                            <div class="collapsible-header active"><i class="material-icons">mode_edit</i> Need Help?</div>
+                            <div class="collapsible-body" style="display: none;">
+                              <p>We welcome your inquiries at the email address <a mailto="support@tcethoc.com">support@tcethoc.com</a>.We will get in touch with you soon.</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="collapsible-header"><i class="material-icons">call</i> Callus</div>
+                            <div class="collapsible-body" style="">
+                              <blockquote>Fantastic product, my sites all run super fast and the support is excellent!<br>The website you designed helped a lot! </blockquote>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">TCET HOC<i class="material-icons right">label_outline</i></span>
+                    <p>Here is some more information about this card.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ante gravida, finibus magna non, faucibus mauris. Nulla ut diam et purus varius commodo id at magna. Donec aliquet nulla eu lacus suscipit, id facilisis lorem ultricies.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ante gravida, finibus magna non, faucibus mauris. Nulla ut diam et purus varius commodo id at magna. Donec aliquet nulla eu lacus suscipit, id facilisis lorem ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ante gravida, finibus magna non, faucibus mauris. Nulla ut diam et purus varius commodo id at magna. Donec aliquet nulla eu lacus suscipit, id facilisis lorem ultricies.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ante gravida, finibus magna non, faucibus mauris. Nulla ut diam et purus varius commodo id at magna. Donec aliquet nulla eu lacus suscipit, id facilisis lorem ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ante gravida, finibus magna non, faucibus mauris. Nulla ut diam et purus varius commodo id at magna. Donec aliquet nulla eu lacus suscipit, id facilisis lorem ultricies.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ante gravida, finibus magna non, faucibus mauris. Nulla ut diam et purus varius commodo id at magna. Donec aliquet nulla eu lacus suscipit, id facilisis lorem ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ante gravida, finibus magna non, faucibus mauris. Nulla ut diam et purus varius commodo id at magna. Donec aliquet nulla eu lacus suscipit, id facilisis lorem ultricies.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ante gravida, finibus magna non, faucibus mauris. Nulla ut diam et purus varius commodo id at magna. Donec aliquet nulla eu lacus suscipit, id facilisis lorem ultricies.</p>                    
+                    <p><i class="mdi-action-perm-identity cyan-text text-darken-2"></i>Prof. Anil Vasoya</p>
+                    <p><i class="mdi-communication-business cyan-text text-darken-2"></i> 125, ABC Street, New Yourk, USA</p>
+                    <p><i class="mdi-action-perm-phone-msg cyan-text text-darken-2"></i> +91 9876543210</p>
+                    <p><i class="mdi-communication-email cyan-text text-darken-2"></i> support@tcethoc.com</p>                    
+                </div>
+            </div>            
+          </div>
+        </div>
+        <!--end container-->
+      </section>
+      <!-- END CONTENT -->
+
+
+
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Login</h4>
+ <form class="col s12"> 
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate" name="Email">
+          <label for="icon_prefix" data-error="wrong" data-success="right">Email Id</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">lock</i>
+          <input id="icon_telephone" type="password" class="validate" name="Password">
+          <label for="icon_telephone" data-error="wrong" data-success="right">Password</label>
+        </div>
+    </form>
+    </div>
+    <div class="modal-footer">
+
+
+    <input type="submit" class=" modal-action modal-close waves-effect waves-green btn-flat" value="Login" name="login">
+      <a href="register.php" class=" modal-action modal-close waves-effect waves-green btn-flat">Sign Up</a>
+      <a href="#" class=" modal-action modal-close waves-effect waves-green btn-flat">Forgot Password</a>
+    </div>
+   
+  </div>
+
+  <script type="text/javascript">
+     $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+  </script>
+  <!-- End of Modal Structure -->
+
+</form>
+  </body>
+</html>

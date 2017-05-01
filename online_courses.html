@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+  <body>
+  <form method="POST" action="index.php">
+  <!--Navigational Bar-->
+  <nav >
+    <div class="nav-wrapper">
+      <a href="index.php" class="brand-logo">HOC Cell</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li class="active"><a href="index.php">Home</a></li>
+        <li><a href="highereducation.html">Higher Education</a></li>
+        <li><a href="onlinecourses.html">Online Courses</a></li>
+        <li><a href="#">Certfications</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#modal1">Login</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li class="active"><a href="index.php">Home</a></li>
+         <li><a class="dropdown-button" href="#" data-activates="dropdown2">HOC<i class="material-icons right">arrow_drop_down</i></a>
+        <ul class="dropdown-content" id="dropdown2">
+        <li><a href="#">Higher Education</a></li>
+        <li><a href="#">Online Courses</a></li>
+        <li><a href="#">Certfications</a></li>
+        </ul>
+        </li>
+        <li><a href="#"><i class="material-icons">perm_media</i>Gallery</a></li>
+        <li><a href="#"><i class="material-icons">polymer</i>Events</a></li>
+        <li><a href="#modal1"><i class="material-icons">perm_identity</i>Login</a></li>
+        <li><a href="#"><i class="material-icons">perm_phone_msg</i>Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--Navigational Bar script-->
+  <script type="text/javascript">
+    $(".button-collapse").sideNav();
+  </script>
+  <script type="text/javascript">  
+  $(".dropdown-button").dropdown();
+  </script>
+  <!--End of Navigational Bar script-->
+  <!--End of Navigational Bar-->
+<br>
+
+<div class="container">
+    <div class="section">
+
+      <!--   courses -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">stars</i></h2>
+            <h5 class="center"><a href="https://onlinecourses.nptel.ac.in">
+            NPTEL</a></h5>
+
+            <p class="light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">polymer</i></h2>
+            <h5 class="center"><a href="https://www.coursera.org">
+            COURSERA</a></h5>
+
+            <p class="light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">android</i></h2>
+            <h5 class="center"><a href="https://www.edureka.co">
+            EDUREKA</a></h5>
+
+            <p class="light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+
+    <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">phonelink_setup</i></h2>
+            <h5 class="center"><a href="https://www.openuniversity.edu">
+            OPENUNIVERSITY</a></h5>
+
+            <p class="light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">phonelink_lock</i></h2>
+            <h5 class="center"><a href="https://alison.com">
+            ALISON</a></h5>
+
+            <p class="light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">swap_vertical_circle</i></h2>
+            <h5 class="center"><a href="https://www.udacity.com">
+            UDACITY</a></h5>
+
+            <p class="light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section">
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Login</h4>
+ <form class="col s12"> 
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate" name="Email">
+          <label for="icon_prefix" data-error="wrong" data-success="right">Email Id</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">lock</i>
+          <input id="icon_telephone" type="password" class="validate" name="Password">
+          <label for="icon_telephone" data-error="wrong" data-success="right">Password</label>
+        </div>
+    </form>
+    </div>
+    <div class="modal-footer">
+
+
+    <input type="submit" class=" modal-action modal-close waves-effect waves-green btn-flat" value="Login" name="login">
+      <a href="register.php" class=" modal-action modal-close waves-effect waves-green btn-flat">Sign Up</a>
+      <a href="#" class=" modal-action modal-close waves-effect waves-green btn-flat">Forgot Password</a>
+    </div>
+   
+  </div>
+
+  <script type="text/javascript">
+     $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+  </script>
+  <!-- End of Modal Structure -->
+
+</form>
+  </body>
+</html>
